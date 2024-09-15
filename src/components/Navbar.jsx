@@ -35,13 +35,15 @@ const Navbar = () => {
     /* Laptop/Desktop View */
     @media (max-width: ${({ theme }) => theme.media.mobile}) {
       .mobile-navbar-btn {
-        display: inline-block;
+        display: flex;
+        align-items: center;
+        justify-content: center;
         position: absolute;
-        top: 1.5rem; /* Set the position of the icon on top */
+        top: 5rem;
         right: 2rem;
-        z-index: 9999; /* Ensure it remains above the rest */
+        z-index: 9999;
         border: none;
-        background: transprent;
+        background: transparent;
         cursor: pointer;
 
         .mobile-nav-icon {
@@ -57,7 +59,7 @@ const Navbar = () => {
       .navbar-list {
         width: 100vw;
         height: 100vh;
-        background-color: black ;
+        background-color: black;
         position: absolute;
         top: 0;
         left: 0;
@@ -73,7 +75,7 @@ const Navbar = () => {
         transform: translateX(0);
       }
 
-      .active .mobile-nav-icon {
+      .active .mobile-nav-icon.menu-icon {
         display: none;
       }
 
@@ -104,22 +106,26 @@ const Navbar = () => {
           </li>
           <li>
             <NavLink className="navbar-link" onClick={() => setOpenMenu(false)} to="/backtoroot">
-             Back to roots
+              Back to roots
             </NavLink>
           </li>
           <li>
             <NavLink className="navbar-link" onClick={() => setOpenMenu(false)} to="/upcomigs">
               Upcomings
             </NavLink>
-          </li>
+            </li>
+            <li>
+            <NavLink className="navbar-link" onClick={() => setOpenMenu(false)} to="/login">
+              login
+            </NavLink>
           
-
+          </li>
         </ul>
 
         <div className="mobile-navbar-btn">
           <CgMenu
             name="menu-outline"
-            className="mobile-nav-icon"
+            className="mobile-nav-icon menu-icon"
             onClick={() => setOpenMenu(true)}
           />
           <CgCloseR

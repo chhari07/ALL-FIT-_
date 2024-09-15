@@ -13,7 +13,8 @@ import Workout from "./Workout";
 import Backtoroot from "./Backtoroot";
 import Blog1 from "./Blog1";
 import Upcomings from "./Upcomigs";
-import Login from './Login/Login'
+import login from "./login";
+
 
 const App = () => {
   const theme = {
@@ -50,7 +51,7 @@ const App = () => {
           <Route path="/workout" element={<Workout />} />
           <Route path="/backtoroot" element={<Backtoroot />} />
           <Route path="/upcomigs" element={<Upcomings />} />
-          <Route path="/Login" element={<Login />} />
+          <Route path="/login" element={<login />} />
           <Route path="/blog1" element={<Blog1 />} />
           <Route path="*" element={<Error />} />
         </Routes>

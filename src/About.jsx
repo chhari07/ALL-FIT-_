@@ -3,88 +3,44 @@ import React from 'react'
 const About = () => {
   return (
     <div>
-   <div class="container relative flex flex-col justify-between h-full max-w-6xl px-10 mx-auto xl:px-0 mt-5">
-    <h2 class="mb-1 text-3xl font-extrabold leading-tight text-white">ABOUT US  </h2>
-  
-    <div class="w-full">
-        <div class="flex flex-col w-full mb-10 sm:flex-row">
-            <div class="w-full mb-10 sm:mb-0 sm:w-1/2">
-                <div class="relative h-full ml-0 mr-0 sm:mr-10">
-                    <span class="absolute top-0 left-0 w-full h-full mt-1 ml-1 bg-indigo-500 rounded-lg"></span>
-                    <div class="relative h-full p-5 bg-white border-2 border-indigo-500 rounded-lg">
-                        <div class="flex items-center -mt-1">
-                            <h3 class="my-2 ml-3 text-lg font-bold text-gray-800">member 1  </h3>
-                        </div>
-                        <p class="mt-3 mb-1 text-xs font-medium text-indigo-500 uppercase">------------</p>
-                        <p class="mb-2 text-gray-600">       .</p>
-                    </div>
-                </div>
-            </div>
-            <div class="w-full sm:w-1/2">
-                <div class="relative h-full ml-0 md:mr-10">
-                    <span class="absolute top-0 left-0 w-full h-full mt-1 ml-1 bg-purple-500 rounded-lg"></span>
-                    <div class="relative h-full p-5 bg-white border-2 border-purple-500 rounded-lg">
-                        <div class="flex items-center -mt-1">
-                            <h3 class="my-2 ml-3 text-lg font-bold text-gray-800"> member 2</h3>
-                        </div>
-                        <p class="mt-3 mb-1 text-xs font-medium text-purple-500 uppercase">------------</p>
-                        <p class="mb-2 text-gray-600">   </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="flex flex-col w-full mb-5 sm:flex-row">
-            <div class="w-full mb-10 sm:mb-0 sm:w-1/2">
-                <div class="relative h-full ml-0 mr-0 sm:mr-10">
-                    <span class="absolute top-0 left-0 w-full h-full mt-1 ml-1 bg-blue-400 rounded-lg"></span>
-                    <div class="relative h-full p-5 bg-white border-2 border-blue-400 rounded-lg">
-                        <div class="flex items-center -mt-1">
-                            <h3 class="my-2 ml-3 text-lg font-bold text-gray-800">member 3</h3>
-                        </div>
-                        <p class="mt-3 mb-1 text-xs font-medium text-blue-400 uppercase">------------</p>
-                        <p class="mb-2 text-gray-600">   </p>
-                    </div>
-                </div>
-            </div>
-            <div class="w-full mb-10 sm:mb-0 sm:w-1/2">
-                <div class="relative h-full ml-0 mr-0 sm:mr-10">
-                    <span class="absolute top-0 left-0 w-full h-full mt-1 ml-1 bg-yellow-400 rounded-lg"></span>
-                    <div class="relative h-full p-5 bg-white border-2 border-yellow-400 rounded-lg">
-                        <div class="flex items-center -mt-1">
-                            <h3 class="my-2 ml-3 text-lg font-bold text-gray-800">member 4</h3>
-                        </div>
-                        <p class="mt-3 mb-1 text-xs font-medium text-yellow-400 uppercase">------------</p>
-                        <p class="mb-2 text-gray-600">  </p>
-                    </div>
-                </div>
-            </div>
-            <div class="w-full sm:w-1/2">
-                <div class="relative h-full ml-0 md:mr-10">
-                    <span class="absolute top-0 left-0 w-full h-full mt-1 ml-1 bg-green-500 rounded-lg"></span>
-                    <div class="relative h-full p-5 bg-white border-2 border-green-500 rounded-lg">
-                        <div class="flex items-center -mt-1">
-                            <h3 class="my-2 ml-3 text-lg font-bold text-gray-800"> member 5</h3>
-                        </div>
-                        <p class="mt-3 mb-1 text-xs font-medium text-green-500 uppercase">------------</p>
-                        <p class="mb-2 text-gray-600">  </p>
-                    </div>
-                </div>
-            </div>
-            <div class="w-full sm:w-1/2">
-                <div class="relative h-full ml-0 md:mr-10">
-                    <span class="absolute top-0 left-0 w-full h-full mt-1 ml-1 bg-green-500 rounded-lg"></span>
-                    <div class="relative h-full p-5 bg-white border-2 border-green-500 rounded-lg">
-                        <div class="flex items-center -mt-1">
-                            <h3 class="my-2 ml-3 text-lg font-bold text-gray-800"> member 6</h3>
-                        </div>
-                        <p class="mt-3 mb-1 text-xs font-medium text-green-500 uppercase">------------</p>
-                        <p class="mb-2 text-gray-600">  </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
+    <section className="py-6 dark:bg-gray-100 dark:text-gray-800">
+	<div className="container flex flex-col items-center justify-center p-4 mx-auto space-y-8 sm:p-10">
+		<h1 className="text-4xl font-bold leading-none text-center sm:text-5xl  text-white   ">Our team</h1>
+		<p className="max-w-2xl text-center text-white">At a assumenda quas cum earum ut itaque commodi saepe rem aspernatur quam natus quis nihil quod, hic explicabo doloribus magnam neque, exercitationem eius sunt!</p>
+		<div className="flex flex-row flex-wrap-reverse justify-center">
+			<div className="flex flex-col justify-center m-8 text-center">
+				<img alt="" className="self-center flex-shrink-0 w-24 h-24 mb-4 bg-center bg-cover rounded-full  bg-white   " src="https://source.unsplash.com/100x100/?portrait?0" />
+				<p className="text-xl font-semibold leading-tight">Leroy Jenkins</p>
+				<p className= "text-white">Visual Designer</p>
+			</div>
+			<div className="flex flex-col justify-center m-8 text-center">
+				<img alt="" className="self-center flex-shrink-0 w-24 h-24 mb-4 bg-center bg-cover rounded-full bg-white" src="https://source.unsplash.com/100x100/?portrait?1" />
+				<p className="text-xl font-semibold leading-tight">Leroy Jenkins</p>
+				<p className="text-white">Visual Designer</p>
+			</div>
+			<div className="flex flex-col justify-center m-8 text-center">
+				<img alt="" className="self-center flex-shrink-0 w-24 h-24 mb-4 bg-center bg-cover rounded-full bg-white" src="https://source.unsplash.com/100x100/?portrait?2" />
+				<p className="text-xl font-semibold leading-tight">Leroy Jenkins</p>
+				<p className="text-white">Visual Designer</p>
+			</div>
+			<div className="flex flex-col justify-center m-8 text-center">
+				<img alt="" className="self-center flex-shrink-0 w-24 h-24 mb-4 bg-center bg-cover rounded-full bg-white" src="https://source.unsplash.com/100x100/?portrait?3" />
+				<p className="text-xl font-semibold leading-tight">Leroy Jenkins</p>
+				<p className="text-white">Visual Designer</p>
+			</div>
+			<div className="flex flex-col justify-center m-8 text-center">
+				<img alt="" className="self-center flex-shrink-0 w-24 h-24 mb-4 bg-center bg-cover rounded-full  bg-white" src="https://source.unsplash.com/100x100/?portrait?4" />
+				<p className="text-xl font-semibold leading-tight">Leroy Jenkins</p>
+				<p className="text-white">Visual Designer</p>
+			</div>
+			<div className="flex flex-col justify-center m-8 text-center">
+				<img alt="" className="self-center flex-shrink-0 w-24 h-24 mb-4 bg-center bg-cover rounded-full bg-white" src="https://source.unsplash.com/100x100/?portrait?5" />
+				<p className="text-xl font-semibold leading-tight">Leroy Jenkins</p>
+				<p className="  text-white">Visual Designer</p>
+			</div>
+		</div>
+	</div>
+</section>
 
     </div>
   )
