@@ -1,0 +1,20 @@
+{
+  "extends": [
+    "development"
+  ],
+  "hints": {
+    "compat-api/css": [
+      "default",
+      {
+        "ignore": [
+          "user-select",
+          "backdrop-filter",
+          "mask-position",
+          "view-timeline",
+          "animation-range",
+          "animation-timeline"
+        ]
+      }
+    ]
+  }
+}

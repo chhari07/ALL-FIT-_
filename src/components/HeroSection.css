@@ -1,0 +1,44 @@
+.breathe-animation {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  position: relative;
+  border-radius: 100px;
+
+}
+
+.breathe-animation span {
+  font-family: 'TheFont';
+  font-size: clamp(5vw, 10vw, 25vh);
+  color: black;
+  text-align: center;
+  animation: letter-breathe 3s ease-in-out infinite;
+  position: absolute;
+
+  
+}
+
+.medium-text {
+  font-family: 'TheFont';
+  font-size: x-large;
+  color: black;
+  margin-top: 20px;
+  text-align: center;
+  position: absolute;
+  top: 40%;
+}
+
+
+.slick-prev:before,
+.slick-next:before {
+  color: black;
+}
+
+.slide {
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+
+}

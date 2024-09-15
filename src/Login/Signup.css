@@ -1,0 +1,9 @@
+
+.span {
+  font-family: 'TheFont';
+  font-size: clamp(5vw, 10vw, 25vh);
+  color: black;
+  text-align: center;
+  animation: letter-breathe 3s ease-in-out infinite;
+}
+

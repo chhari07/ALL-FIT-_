@@ -1,0 +1,68 @@
+{
+    "goals": [
+      {
+        "name": "Muscle Building (Hypertrophy)",
+        "focus": "Increase muscle mass",
+        "workout_type": "Weightlifting with moderate-heavy weights, 8-12 reps, 3-4 sets per exercise",
+        "examples": ["Bench press", "Squats", "Deadlifts", "Shoulder press", "Bicep curls"],
+        "schedule": "4-5 days per week (split routine)"
+      },
+      {
+        "name": "Strength Training",
+        "focus": "Increase overall strength and power",
+        "workout_type": "Low-rep, high-weight exercises, 4-6 reps, 3-5 sets per exercise",
+        "examples": ["Powerlifting (bench press, squats, deadlifts)", "Olympic lifts (cleans, snatches)"],
+        "schedule": "3-4 days per week"
+      },
+      {
+        "name": "Fat Loss (Cutting)",
+        "focus": "Burn fat while maintaining muscle",
+        "workout_type": "Combination of cardio and strength training, higher reps (12-15), moderate weights",
+        "examples": ["Circuit training", "HIIT (High-Intensity Interval Training)", "Steady-state cardio"],
+        "schedule": "5-6 days per week"
+      },
+      {
+        "name": "Endurance Training",
+        "focus": "Improve cardiovascular and muscular endurance",
+        "workout_type": "Long-duration, low-intensity exercises, high reps (15+), or long cardio sessions",
+        "examples": ["Distance running", "Cycling", "Swimming", "High-rep circuit training"],
+        "schedule": "4-6 days per week"
+      },
+      {
+        "name": "Functional Fitness",
+        "focus": "Improve movement, flexibility, and overall athleticism",
+        "workout_type": "Full-body workouts, bodyweight exercises, plyometrics, balance work",
+        "examples": ["Burpees", "Kettlebell swings", "Box jumps", "Pull-ups", "Yoga"],
+        "schedule": "3-5 days per week"
+      },
+      {
+        "name": "Mobility and Flexibility",
+        "focus": "Improve range of motion and reduce injury risk",
+        "workout_type": "Stretching, yoga, Pilates, mobility drills",
+        "examples": ["Static and dynamic stretching", "Foam rolling", "Yoga poses"],
+        "schedule": "3-4 days per week (can be combined with other goals)"
+      },
+      {
+        "name": "Sports-Specific Training",
+        "focus": "Enhance performance in a particular sport",
+        "workout_type": "Movements that mimic the sport, agility drills, plyometrics, and strength exercises specific to the sport's needs",
+        "examples": ["Agility ladder drills for soccer", "Explosive box jumps for basketball", "Resistance sprints for football"],
+        "schedule": "4-6 days per week, depending on sport and season"
+      },
+      {
+        "name": "Rehabilitation & Recovery",
+        "focus": "Recover from injury or prevent injury",
+        "workout_type": "Low-impact exercises, stability work, and corrective exercises",
+        "examples": ["Resistance band work", "Physical therapy exercises", "Swimming", "Light stretching"],
+        "schedule": "3-5 days per week, depending on injury and recovery status"
+      },
+      {
+        "name": "Body Recomposition",
+        "focus": "Lose fat while gaining muscle simultaneously",
+        "workout_type": "Moderate weights with medium reps (8-10), compound movements, mixed with some cardio",
+        "examples": ["Compound lifts (squats, deadlifts)", "Moderate cardio (cycling, jogging)", "Core exercises"],
+        "schedule": "4-5 days per week (balanced between lifting and cardio)"
+      }
+    ]
+  }
+  
