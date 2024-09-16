@@ -1,82 +1,115 @@
-/* Workout.css */
-
-/* Base styles for card container */
-.card-container {
-  @apply grid grid-cols-1 gap-4 mt-4 md:grid-cols-3;
-}
-
-/* Base styles for card /* Workout.css */
-
-/* Base styles for card container */
-.card-container {
-  @apply flex flex-col items-center justify-center min-h-screen; /* Center items vertically and horizontally */
-  @apply gap-4 mt-4;
-}
-
+/* Styling for the cards */
 .card-grid {
-  @apply grid grid-cols-1 gap-4 md:grid-cols-3;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 16px;
+  padding: 16px;
 }
 
 .card {
-  @apply relative drop-shadow-xl w-full h-96 overflow-hidden rounded-xl bg-white;
+  background-color: white;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
 }
 
 .image {
-  @apply object-cover w-full h-60 bg-cover;
+  background-size: cover;
+  height: 200px;
 }
 
 .content {
-  @apply p-4;
-}
-
-.title {
-  @apply text-[#111827] text-xl font-semibold;
-}
-
-.desc {
-  @apply mt-2 text-[#6B7280] text-sm;
+  padding: 16px;
 }
 
 .action {
-  @apply inline-flex mt-4 text-white text-sm font-medium items-center gap-1 bg-[#2563EB] py-1 px-2 rounded;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+  margin-top: 8px;
+  display: inline-block;
 }
 
-.action span {
-  @apply transition-transform duration-300 ease-in-out; /* Updated easing class */
+/* Popup styling */
+.popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
 }
 
-.action:hover span {
-  @apply translate-x-1;
+.popup-content {
+  background: white;
+  padding: 20px;
+  width: 90%;
+  max-width: 1200px;
+  border-radius: 8px;
+  position: relative;
 }
 
-.card {
-  @apply relative drop-shadow-xl w-full h-96 overflow-hidden rounded-xl bg-white;
+.popup-close {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  color: #000;
+  font-weight: bold;
 }
 
-.image {
-  @apply object-cover w-full h-60 bg-cover;
+.popup-close:hover {
+  color: red;
+  transition: color 0.2s ease-in-out;
 }
 
-.content {
-  @apply p-4;
+/* Grid layout */
+.popup-grid {
+  display: grid;
+  grid-template-columns: 1fr; /* Default to single column for mobile */
+  gap: 16px;
 }
 
-.title {
-  @apply text-[#111827] text-xl font-semibold;
+/* Style for large box */
+.large-box {
+  background-color: #f0f0f0;
+  padding: 20px;
 }
 
-.desc {
-  @apply mt-2 text-black   text-center text-lg;
+/* Style for medium box */
+.medium-box {
+  background-color: #e0e0e0;
+  padding: 20px;
 }
 
-.action {
-  @apply inline-flex mt-4 text-white text-sm font-medium items-center gap-1 bg-[#2563EB] py-1 px-2 rounded;
+/* Medium boxes should appear in two columns on larger screens */
+@media (min-width: 768px) {
+  .popup-grid {
+    grid-template-columns: 1fr 1fr; /* Create two-column layout for medium boxes */
+  }
+
+  /* Medium boxes should span across both columns */
+  .large-box {
+    grid-column: 1 / -1;
+  }
 }
 
-.action span {
-  @apply transition-transform duration-300 ease-in-out; /* Updated easing class */
-}
-
-.action:hover span {
-  @apply translate-x-1;
+/* Image size adjustment inside the popup */
+.popup-image {
+  width: 100%;
+  max-width: 400px; /* Adjust image size */
+  height: auto;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto;
 }

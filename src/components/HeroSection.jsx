@@ -4,6 +4,7 @@ import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import styled, { keyframes } from 'styled-components';
 
+
 // Keyframes for pop animation
 const popAnimation = keyframes`
   0% {
@@ -28,35 +29,186 @@ const HeroSectionWrapper = styled.div`
     text-align: center;
     font-family: Arial, sans-serif;
 
-    h1, p {
-      animation: ${popAnimation} 0.5s ease-in-out; /* Apply pop animation */
+    body {
+      background-color: #101013;
+      color: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 300px;
+      
+      font-family: "Poppins", sans-serif;
+      font-weight: 200;
     }
-  }
-
-  h1 {
-    font-size: 4rem;
-    font-weight: 900;
-    animation: ${popAnimation} 0.8s ease-in-out;
-
-    @media (max-width: 768px) {
-      font-size: 2.5rem; /* Mobile view */
+    
+    
+    .key {
+      font-size: 15vw;
+      display: inline-block;
+      letter-spacing: -1vw;
+      transition: transform 0.2s;
     }
-
-    @media (min-width: 1024px) {
-      font-size: 5rem; /* Laptop view */
+    
+    
+    
+    @keyframes pressDown1 {
+      30%,
+      40%,
+      100% {
+        transform: translateY(0);
+      }
+      35% {
+        transform: translateY(10px);
+      }
     }
-  }
-
-  p {
-    font-size: 1.5rem;
-    animation: ${popAnimation} 1s ease-in-out;
-
-    @media (max-width: 768px) {
-      font-size: 1.2rem; /* Mobile view */
+    
+    @keyframes pressDown2 {
+      70%,
+      80%,
+      100% {
+        transform: translateY(0);
+      }
+      75% {
+        transform: translateY(10px);
+      }
     }
-
-    @media (min-width: 1024px) {
-      font-size: 2rem; /* Laptop view */
+    
+    @keyframes pressDown3 {
+      30%,
+      40%,
+      100% {
+        transform: translateY(0);
+      }
+      35% {
+        transform: translateY(10px);
+      }
+    }
+    
+    @keyframes pressDown4 {
+      40%,
+      50%,
+      100% {
+        transform: translateY(0);
+      }
+      45% {
+        transform: translateY(10px);
+      }
+    }
+    
+    @keyframes pressDown5 {
+      20%,
+      30%,
+      100% {
+        transform: translateY(0);
+      }
+      25% {
+        transform: translateY(10px);
+      }
+    }
+    
+    @keyframes pressDown6 {
+      60%,
+      70%,
+      100% {
+        transform: translateY(0);
+      }
+      65% {
+        transform: translateY(10px);
+      }
+    }
+    
+    @keyframes pressDown7 {
+      10%,
+      20%,
+      100% {
+        transform: translateY(0);
+      }
+      15% {
+        transform: translateY(10px);
+      }
+    }
+    
+    @keyframes pressDown8 {
+      35%,
+      45%,
+      100% {
+        transform: translateY(0);
+      }
+      40% {
+        transform: translateY(10px);
+      }
+    }
+    
+    
+    
+    .key:nth-child(1) {
+      animation: pressDown1 2s infinite;
+    }
+    
+    .key:nth-child(2) {
+      animation: pressDown2 3s infinite;
+    }
+    
+    .key:nth-child(3) {
+      animation: pressDown3 4s infinite;
+    }
+    
+    .key:nth-child(4) {
+      animation: pressDown4 2.5s infinite;
+    }
+    
+    .key:nth-child(5) {
+      animation: pressDown5 2.5s infinite;
+    }
+    
+    .key:nth-child(6) {
+      animation: pressDown6 3.5s infinite;
+    }
+    
+    .key:nth-child(7) {
+      animation: pressDown7 2.2s infinite;
+    }
+    
+    .key:nth-child(8) {
+      animation: pressDown8 3.2s infinite;
+    }
+    
+    
+    
+    
+    /* extra stuff */
+    .jux-linx {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      flex-wrap: wrap;
+      justify-content: flex-start;
+      gap: 10px;
+      position: absolute;
+      left: 20px;
+      bottom: 20px;
+    }
+    a {
+      text-decoration: none;
+      font-family: "IBM Plex Sans", sans-serif;
+      font-weight: 400;
+      font-size: 16px;
+      color: white;
+      background-color: black;
+      border: 1px solid rgba(255, 255, 255, 0.3);
+      border-radius: 2px;
+      padding: 5px 10px;
+      transition: 0.1s all ease-in;
+    }
+    
+    a:nth-child(1):hover {
+      border: 1px solid rgba(255, 255, 255, 0.4);
+      box-shadow: 0px 2px 0 #349eff;
+    }
+    
+    a:nth-child(2):hover {
+      border: 1px solid rgba(255, 255, 255, 0.4);
+      box-shadow: 0px 2px 0 #ff5757;
     }
   }
 `;
@@ -106,7 +258,7 @@ const HeroSection = () => {
             }}
           >
             <div className="slide-content">
-              <h1>all फिट</h1>
+            <span class="key">ALL फिट</span>
               <p>आरोग्य परंभ भाग्यं स्वास्थ्य सर्वार्थसाधनम् ॥</p>
             </div>
           </div>
@@ -123,7 +275,7 @@ const HeroSection = () => {
             }}
           >
             <div className="slide-content">
-              <h1>all फिट</h1>
+            <span class="key">ALL फिट</span>
               <p>आरोग्य परंभ भाग्यं स्वास्थ्य सर्वार्थसाधनम् ॥</p>
             </div>
           </div>
@@ -140,7 +292,7 @@ const HeroSection = () => {
             }}
           >
             <div className="slide-content">
-              <h1>all फिट</h1>
+            <span class="key">ALL फिट</span>
               <p>आरोग्य परंभ भाग्यं स्वास्थ्य सर्वार्थसाधनम् ॥</p>
             </div>
           </div>

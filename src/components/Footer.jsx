@@ -10,16 +10,14 @@ const Footer = () => {
     <footer class="bg-black">
     <div class="mx-auto max-w-screen-xl px-4 pb-8 pt-16 sm:px-6 lg:px-8 lg:pt-24">
       <div class="text-center">
-        <h2 class="text-3xl font-extrabold text-red-500 sm:text-5xl">ALL FIT</h2>
-  
-        <p class="mx-auto mt-4 max-w-sm text-gray-500">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum maiores ipsum eos temporibus
-          ea nihil.
-        </p>
+        <h2 class="text-3xl font-extrabold text-white sm:text-5xl">ALL FIT</h2>
+      
+              <p className=" text-white"   >आरोग्य परंभ भाग्यं स्वास्थ्य सर्वार्थसाधनम् ॥</p>
+       
   
         <a
           href="#"
-          class="mt-8 inline-block rounded-full border border-red-500 px-12 py-3 text-sm font-medium text-red-500 focus:outline-none focus:ring active:bg-indigo-500"
+          class="mt-8 inline-block rounded-full border border-white px-12 py-3 text-sm font-medium text-white  focus:outline-none focus:ring active:bg-indigo-500"
         >
           Get Started
         </a>
