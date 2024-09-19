@@ -18,46 +18,36 @@ const Cards = () => {
             </div>
 
             <div className="link-2">
-              <NavLink to="/Dietplan" activeClassName="active">
-                <span className="thin">DIET</span><span className="thick">PLAN</span>
+              <NavLink to="/yoga" activeClassName="active">
+                <span className="thin">YO</span><span className="thick">GA</span>
               </NavLink>
             
             </div>
 
             <div className="link-3">
-              <NavLink to="/Yoga " activeClassName="active">
-                <span className="thin">YO</span><span className="thick">GA</span>
+              <NavLink to="/mediation " activeClassName="active">
+                <span className="thin">MEDI</span><span className="thick">ATION</span>
               </NavLink>
              
             </div>
 
             <div className="link-4">
-              <NavLink to="/Diabetes " activeClassName="active">
-                <span className="thin">DIA</span><span className="thick">BETES</span>
+              <NavLink to="/mentalhealth " activeClassName="active">
+                <span className="thin">MENTAL</span><span className="thick">HEALTH</span>
               </NavLink>
              
             </div>
 
             <div className="link-5">
-              <NavLink to="/Health " activeClassName="active">
-                <span className="thin">Hea</span><span className="thick">lth</span>
+              <NavLink to="/goodfood " activeClassName="active">
+                <span className="thin">GOOD</span><span className="thick">FOOD</span>
               </NavLink>
            
             </div>
 
-            <div className="link-6">
-              <NavLink to="/Nutrination" activeClassName="active">
-                <span className="thin">NU</span><span className="thick">trition</span>
-              </NavLink>
-             
-            </div>
-
-            <div className="link-7">
-              <NavLink to="/Running" activeClassName="active">
-                <span className="thin">RUN</span><span className="thick">ning</span>
-              </NavLink>
+           
             
-            </div>
+          
           </div>
         </div>
       </div>

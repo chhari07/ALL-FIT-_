@@ -10,11 +10,11 @@ const CardGrid = () => {
           className="crd-img"
           style={{
             backgroundImage:
-              'url("https://images.unsplash.com/photo-1541881702266-f2dd28ed4415?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=500&ixid=eyJhcHBfaWQiOjF9&ixlib=rb-1.2.1&q=80&w=340")',
+              'url("https://uxdt.nic.in/wp-content/uploads/2021/12/fit-india-fit-india-01-01.jpg?x69772")',
           }}
         ></div>
         <div className="crd-info">
-          <h2 className="crd-heading">Lumière</h2>
+          <h2 className="crd-heading">FIT INDIA </h2>
           <p className="crd-text">And then that begins...</p>
         </div>
       </div>
@@ -25,7 +25,7 @@ const CardGrid = () => {
           className="crd-img"
           style={{
             backgroundImage:
-              'url("https://images.unsplash.com/photo-1447405866403-2dc651878fd6?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=500&ixid=eyJhcHBfaWQiOjF9&ixlib=rb-1.2.1&q=80&w=340")',
+              'url("  https://apacnewsnetwork.com/wp-content/uploads/2023/09/Health-Ministry-launches-PRIP-scheme-for-pharma-and-medical-devices-sector.jpg")',
           }}
         ></div>
         <div className="crd-info">
@@ -40,7 +40,7 @@ const CardGrid = () => {
           className="crd-img"
           style={{
             backgroundImage:
-              'url("https://images.unsplash.com/photo-1503517296638-b2b666927c0d?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=500&ixid=eyJhcHBfaWQiOjF9&ixlib=rb-1.2.1&q=80&w=340")',
+              'url("https://ayushnext.ayush.gov.in/userfiles/images/Ministry-of-AYUSH.jpg")',
           }}
         ></div>
         <div className="crd-info">

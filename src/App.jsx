@@ -13,8 +13,26 @@ import Workout from "./Workout";
 import Backtoroot from "./Backtoroot";
 import Blog1 from "./Blog1";
 import Upcomings from "./Upcomigs";
-import login from "./login";
 
+import Chatbot from "./Chatbot";
+import Yoga from "./Yoga";
+import Mediation from "./Mediation";
+import Mental from "./Mental";
+import GoodFood from "./Good_Food";
+import AyurvedicFitnessPlan from "./AyuredicFitnessPlans";
+import Yogawith from "./Yogawith";
+import Indiandance from "./Indiandance";
+import MindfFulness from "./MindfFulness";
+import AcientIndia from "./AcientIndia";
+import SeasonalWorkout from "./SeasonalWorkout";
+import LocaIingredients from "./LocaIingredients";
+import Interactive from "./Interactive";
+import Historical from "./Historical";
+import Cultural from "./Cultural";
+import Traditional from "./Traditional";
+import IndianMythology from "./IndianMythology";
+import Dashboard from "./Dashboard";
+import Login from "./login";
 
 const App = () => {
   const theme = {
@@ -51,8 +69,27 @@ const App = () => {
           <Route path="/workout" element={<Workout />} />
           <Route path="/backtoroot" element={<Backtoroot />} />
           <Route path="/upcomigs" element={<Upcomings />} />
-          <Route path="/login" element={<login />} />
+          <Route path="/login" element={<Login/>} />
           <Route path="/blog1" element={<Blog1 />} />
+          <Route path="/chatbot" element={<Chatbot />} />
+          <Route path="/yoga" element={<Yoga/>}/>
+          <Route path="/mediation" element={<Mediation/>}/>
+          <Route path="/mentalhealth" element={<Mental/>}/>
+          <Route path="/goodfood" element={<GoodFood/>}/>
+          <Route path="/Ayurvedic" element={<AyurvedicFitnessPlan/>}/>
+          <Route path="/YogawithAncient" element={<Yogawith/>}/>
+          <Route path="/indianDance" element={<Indiandance/>}/>
+          <Route path="/MindfulnessandMeditation" element={<MindfFulness/>}/>
+          <Route path="/AncientIndian" element={<AcientIndia/>}/>
+          <Route path="/SeasonalWorkout" element={<SeasonalWorkout/>}/>
+          <Route path="/InteractiveBhanjan" element={<Interactive/>}/>
+          <Route path="/CulturalWorkshops" element={<Cultural/>}/>
+          <Route path="/IndianMythology" element={<IndianMythology/>}/>
+          <Route path=" /Dashboard" element={<Dashboard/>}/>
+           
+          
+          
+       
           <Route path="*" element={<Error />} />
         </Routes>
         <Footer />

@@ -115,7 +115,7 @@ const Navbar = () => {
             </NavLink>
             </li>
             <li>
-            <NavLink className="navbar-link" onClick={() => setOpenMenu(false)} >
+            <NavLink className="navbar-link" onClick={() => setOpenMenu(false)} to="/login" >
               login
             </NavLink>
           

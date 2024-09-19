@@ -259,7 +259,7 @@ const HeroSection = () => {
           >
             <div className="slide-content">
             <span class="key">ALL फिट</span>
-              <p>आरोग्य परंभ भाग्यं स्वास्थ्य सर्वार्थसाधनम् ॥</p>
+              <p className=' text-yellow-600  '>आरोग्य परंभ भाग्यं स्वास्थ्य सर्वार्थसाधनम् ॥</p>
             </div>
           </div>
         </div>
@@ -276,7 +276,7 @@ const HeroSection = () => {
           >
             <div className="slide-content">
             <span class="key">ALL फिट</span>
-              <p>आरोग्य परंभ भाग्यं स्वास्थ्य सर्वार्थसाधनम् ॥</p>
+            <p className=' text-yellow-600  '>आरोग्य परंभ भाग्यं स्वास्थ्य सर्वार्थसाधनम् ॥</p>
             </div>
           </div>
         </div>
@@ -293,7 +293,7 @@ const HeroSection = () => {
           >
             <div className="slide-content">
             <span class="key">ALL फिट</span>
-              <p>आरोग्य परंभ भाग्यं स्वास्थ्य सर्वार्थसाधनम् ॥</p>
+            <p className=' text-yellow-600  '>आरोग्य परंभ भाग्यं स्वास्थ्य सर्वार्थसाधनम् ॥</p>
             </div>
           </div>
         </div>
